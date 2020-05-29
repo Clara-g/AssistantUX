@@ -1,0 +1,21 @@
+{
+  "name": "assistantux",
+  "version": "1.0.0",
+  "description": "Landing page mobile application",
+  "main": "index.js",
+  "scripts": {
+  "sass":"sass --watch ./css/main.scss:./css/global.css"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clara-g/AssistantUX.git"
+  },
+  "author": "Clara Giaquinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clara-g/AssistantUX/issues"
+  },
+  "homepage": "https://github.com/Clara-g/AssistantUX#readme",
+  "dependencies": {
+    "sass": "^1.26.7"
+  }
+}

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'coolvetica rg';
+    src: url(../fonts/coolveticarg.ttf);
+} 
+/*
+@font-face {
+    font-family: 'gill sans';
+    src: url(../fonts/gillsans.ttf);
+}*/
+:root{
+    font-size: 16px;
+    font-family: 'coolvetica rg', sans-serif;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+$yellowBgc: #FFE000;
+$greyBgc: #DEDEDE;
+$fontColor:#2E2E2E;
+
+/*---All H2---*/
+h2{
+    color: $fontColor;
+    font-size: 2rem;
+    font-family: 'coolvetica rg', sans-serif;
+
+}
+
+/*---All paragraph---*/
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 1.3rem;
+    color: $fontColor;
+}
+/*---All interspace---*/
+.insterspace{
+    width: 100%;
+    height: 5rem;
+}
+/*---All articles---*/
+article{
+    padding: 30px 0 30px 0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image: url("../img/curve1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+            
+    article{
+        section{
+            padding: 30px 0 30px 0;
+        }
+        section:first-of-type{
+            img:first-of-type{
+                display: block;
+                margin: auto;
+                width: 5vw;
+            }
+            h1{
+                color: $fontColor;
+                font-size: 2rem;
+                font-family: 'coolvertica rg', sans-serif;
+            }
+            h3{
+                color: $fontColor;
+                font-size:1.2rem;
+               /* font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;*/
+            }
+            
+        }
+       
+    }
+}
+header{
+    article>section:nth-of-type(2){
+        &img{
+            width: 20vw;
+        }
+        
+    }
+}
+
+/*---Article : "Formulaire"---*/
+
+#form{}
+
+/*---Article : "Tout à porté de main"---*/
+#atHand{
+    background-color: $greyBgc;
+}
+#atHand{
+    section{
+        /*h2{
+           color: $fontColor;
+            font-size: 2rem;
+        }*/
+    }
+    img{
+        width: 20vw; 
+    }   
+}
+/*---Article : "Trop d'info ?"---*/
+#info{
+    /*---QRcode---*/
+    section{
+        img{
+            display: block;
+            margin: auto;
+            width: 5vw;
+        }
+        p{
+            font-size:1rem;
+        }
+        a{
+            display: block;
+            margin: auto;
+            color: white;
+            background-color:#6F51FC;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 4px;
+            padding: 15px 0px;
+            width: 25%;
+            } 
+    }
+}
